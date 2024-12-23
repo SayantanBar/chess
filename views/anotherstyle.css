@@ -1,0 +1,14 @@
+/* Equivalent Vanilla CSS */
+.container {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #18181b; /* bg-zinc-900 */
+}
+.chessboard {
+  width: 384px; /* 24rem */
+  height: 384px; /* 24rem */
+  background-color: #991b1b; /* bg-red-800 */
+}

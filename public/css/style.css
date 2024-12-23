@@ -1,0 +1,22 @@
+/* CSS Reset: Remove all default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the container and chessboard */
+.container {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #18181b; /* bg-zinc-900 */
+}
+
+.chessboard {
+  width: 384px; /* 24rem */
+  height: 384px; /* 24rem */
+  background-color: #991b1b; /* bg-red-800 */
+}
